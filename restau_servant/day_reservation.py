@@ -35,9 +35,6 @@ class DayReservation:
             "repas": str(self.meal),
             "composition": str(self.choice)
         })
-        print(self.date)
-        print(self.meal)
-        print(self.choice)
         
     def __repr__(self):
         return f"{self.__class__.__name__}({self.date!r}, {self.meal!r}, {self.choice!r})"
